@@ -1,0 +1,36 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\Rdb\\entry\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\Rdb\\entry\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\Rdb\\entry\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\Rdb\\entry\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\Rdb\\entry\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\Rdb\\entry\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\Rdb\\entry\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\Rdb\\entry\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\Rdb\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\Rdb\\entry\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\Rdb\\entry\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\Rdb\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\Rdb\\entry\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\Rdb\\entry\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json"
+        }
+      }
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "D:\\Rdb\\build",
+    "BUNDLE_NAME": "com.example.rdb",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "D:\\Rdb\\build\\outputs\\default"
+    }
+  },
+  "version": 1
+}

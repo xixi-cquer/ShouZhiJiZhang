@@ -1,0 +1,49 @@
+{
+	"app": {
+		"bundleName": "com.example.rdb",
+		"vendor": "example",
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"icon": "$media:app_icon",
+		"label": "$string:app_name",
+		"targetAPIVersion": 9,
+		"minAPIVersion": 9,
+		"apiReleaseType": "Release",
+		"debug": true
+	},
+	"module": {
+		"name": "entry",
+		"type": "entry",
+		"description": "$string:entry_desc",
+		"mainElement": "entryAbility",
+		"deviceTypes": [
+			"phone",
+			"tablet"
+		],
+		"deliveryWithInstall": true,
+		"installationFree": false,
+		"pages": "$profile:main_pages",
+		"abilities": [
+			{
+				"name": "EntryAbility",
+				"srcEntrance": "./ets/entryability/EntryAbility.ts",
+				"description": "$string:MainAbility_desc",
+				"icon": "$media:icon",
+				"label": "$string:MainAbility_label",
+				"startWindowIcon": "$media:icon",
+				"startWindowBackground": "$color:white",
+				"exported": true,
+				"skills": [
+					{
+						"entities": [
+							"entity.system.home"
+						],
+						"actions": [
+							"action.system.home"
+						]
+					}
+				]
+			}
+		]
+	}
+}
